@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-usr_input = str(input("What's the weather like today? (sunny/rainy/cold):"))
+usr_input = str(input("What's the weather like today? (sunny/rainy/cold): "))
 
 if (usr_input == "sunny"):
     print("Wear a t-shirt and sunglasses.")
