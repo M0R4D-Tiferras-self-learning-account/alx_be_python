@@ -7,6 +7,6 @@ def perform_operation(num1, num2, operation):
         return (float(num1 - num2))
     elif (operation == "multiply"):
         return (float(num1 * num2))
-    elif (operation == "divide"):
+    elif (operation == "divide" and num2 != 0):
         return (float(num1 / num2))
 
